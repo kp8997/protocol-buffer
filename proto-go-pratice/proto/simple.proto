@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package example.dummy;
+
+option go_package = "github.com/kp8997/protocol-buffer";
+
+message City {
+  string name = 1;
+  uint32 zip_code = 2;
+  string country_name = 3;
+}

@@ -9,6 +9,10 @@
   - `brew install protolint`
 
 
+__Formating__
+
+  `protolint lint .`   
+
 ## Install ## 
 
 brew install protobuf 
@@ -49,8 +53,8 @@ __Execute the command__
 
   2. With golang use step below
 
-  - create new folder
+  - Create new folder
 
-  - create module with `go mod init example.com/m`
+  - Create module with `go mod init example.com/m`
 
-  - 
+  - Optionally execute `go mod tidy`

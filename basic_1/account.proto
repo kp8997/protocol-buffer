@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+
+enum Color {
+  UNSPECIFIED = 0;
+  GREEN = 1;
+  BLUE = 2;
+  BROWN = 3;
+}
+
+message Account {
+  uint32 id = 1;
+  string name = 2;
+  bytes thumbnail = 3;
+  bool is_verified = 4;
+  float height = 5;
+  repeated string phone = 6; // repeated = aray
+  Color eye_color = 7; // enum first value start with 0
+}

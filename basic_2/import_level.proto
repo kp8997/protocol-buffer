@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "same_level.proto";
+
+message MessageFive {
+  MessageOne messageOne = 1;
+  
+}

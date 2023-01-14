@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "package_level.proto";
+
+message MessageSeven {
+  my.package.MessageSix messageSix = 1;
+
+}

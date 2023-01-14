@@ -16,3 +16,9 @@ message Building {
   uint32 number = 2;
   Street street = 3;
 }
+
+message Address {
+  Building building = 1;
+  Street street = 2;
+  City city = 3;  
+}
